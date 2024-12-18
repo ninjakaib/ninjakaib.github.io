@@ -22,6 +22,7 @@ jobs:
         with:
           commit_message: Update resume pdf
           branch: main
+          file_pattern: "*.pdf"
           commit_options: "--no-verify --signoff"
           commit_author: Author <actions@github.com>
           status_options: "--untracked-files=no"
