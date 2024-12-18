@@ -1,5 +1,6 @@
 name: Build LaTeX Resume PDF
 on:
+  workflow_dispatch:
   push:
     paths: "resume/main.tex"
 
