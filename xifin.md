@@ -1,5 +1,37 @@
 # XiFin Machine Learning Engineering Internship Projects (June 2024 - Present)
 
+## General tasks:
+
+- Deploying models to AWS sagemaker for real time inference
+- Building containers for development on sagemaker studio
+- Developing and deploying custom inference containers for model serving
+- Building frontend web applications for non technical users to interact with models
+- Building internal CLI tools to help automate common workflows for my team
+- Migrated all untracked ML code in sagemaker to proper version control system
+
+### Technologies used:
+
+- AWS Sagemaker, Lambda, S3, ECR, Textract
+- Python:
+  - transformers
+  - pyTorch
+  - pandas
+  - numpy
+  - langchain
+  - fastAPI
+  - gradio
+  - boto3
+  - ijson
+  - multiprocessing, threading
+  - asyncio
+- vllm, ollama, huggingface, tgi, llama.cpp, djl lmi
+- Docker
+- Github:
+  - actions
+  - git
+- SQL
+- Svelte, TypeScript/JavaScript, HTML, CSS
+
 ## 1. IDE-Integrated Code Assistant
 
 - Built a private GitHub Copilot alternative using open-source LLMs (Llama, Qwen)

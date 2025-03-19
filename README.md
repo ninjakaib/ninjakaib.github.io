@@ -150,3 +150,78 @@ Now, let me craft impactful resume bullet points for the XiFin experience (focus
 ```
 
 Would you like me to adjust any of these bullet points or would you like to move on to discussing your other positions?
+
+---
+
+Below are the revised resume sections for your ML Engineering Internship at XiFin and your Hardware Accelerator Capstone Project. They’re detailed, quantify your results, and emphasize your interdisciplinary skills—all in a single unified resume for Etched.
+
+---
+
+**Experience – Machine Learning Engineer Intern, XiFin, Inc. (June 2024 – Present)**
+
+- **Model Deployment & Infrastructure:**
+  - Deployed state-of-the-art LLMs for real-time inference on AWS SageMaker; built and maintained custom Docker inference containers, leveraging AWS services (Sagemaker, Lambda, S3, ECR) to ensure scalable, reliable deployment.
+  - Migrated legacy code into a proper version-controlled environment, streamlining development and improving reproducibility across the team.
+- **Tooling & Process Automation:**
+
+  - Developed internal CLI tools and web applications using Python, FastAPI, Gradio, Svelte, and TypeScript to automate common workflows, boosting team productivity and reducing manual intervention.
+  - Implemented CI/CD pipelines with GitHub Actions to enable automated testing and continuous integration, ensuring high code quality and rapid iteration on model deployment processes.
+
+- **Advanced ML Operations & Optimization:**
+  - Engineered an IDE-integrated code assistant (a private GitHub Copilot alternative) that provided context-aware code suggestions, inline editing with diff previews, and real-time autocomplete—supporting techniques like quantization and speculative decoding.
+  - Optimized data pipelines and resource utilization by leveraging multiprocessing, threading, and asynchronous operations (asyncio), which resulted in faster model inference and smoother service delivery.
+- **Technologies:** Python (transformers, PyTorch, pandas, numpy, langchain), AWS (Sagemaker, Lambda, S3, ECR), Docker, Git, SQL, and modern web stacks (Svelte, TypeScript/JavaScript).
+
+---
+
+**Projects – Machine Learning Hardware Accelerator Capstone (Sept. 2024 – Present)**
+
+- **Innovative Accelerator Design & Simulation:**
+  - Independently designed and implemented a fully functional ML accelerator in Python using PyRTL—a framework that enables RTL-level hardware design and simulation in a Pythonic environment.
+  - Developed a custom, VLIW-style simulation framework with pipelined execution; built a rudimentary compiler that translates a single model architecture’s computational graph into an instruction sequence (including matrix tiling and topological sorting) for efficient simulation.
+- **L‑Mul Floating-Point Multiplier:**
+  - Created what is, to the best of my knowledge, the first ASIC-based implementation of the L‑Mul algorithm for approximating floating-point multiplication.
+  - Quantified simulation results using physical hardening flows with openROAD, achieving up to **88.9% reduction in area**, **99.6% reduction in power consumption**, and **80.7% reduction in delay** (relative to standard IEEE-754 multipliers) across various floating-point formats (FP8 to FP32).
+  - Ensured high computational accuracy—running a full MLP inference simulation with less than **0.1% accuracy loss** compared to expected results—thus validating the efficiency–precision trade-off.
+- **End-to-End Hardware-Software Co-Design:**
+  - Integrated all components (RTL design, custom VLIW instruction simulation, pipelined operations, and CI-driven automated testing) to build a top-level accelerator core that demonstrates both the practical viability of novel hardware optimizations and the ability to rapidly prototype cross-disciplinary ideas.
+  - Leveraged open-source EDA tools like OpenROAD not only for generating compelling performance estimates but also to guide design decisions based on realistic ASIC metrics.
+
+---
+
+These sections showcase your deep hands-on experience in both cutting-edge ML engineering and innovative hardware simulation—demonstrating your potential to contribute across software engineering, machine learning, and even hardware architecture teams at Etched. Let me know if you’d like any further refinements!
+
+%-------------------------
+% Experience Section
+%-------------------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Machine Learning Engineer Intern}{June 2024 -- Present}
+{XiFin, Inc.}{San Diego, CA}
+\resumeItemListStart
+\resumeItem{Developed **IDE coding assistant** using open-source LLMs on AWS SageMaker, enabling context-aware code suggestions, inline editing, and real-time autocomplete.}
+\resumeItem{Built **automated insurance appeal letter system** with knowledge graphs and multimodal LLMs, cutting manual processing time.}
+\resumeItem{Optimized **insurance pricing pipeline** to achieve 90x throughput with multiprocessing and custom C backends.}
+\resumeItem{Redesigned pricing database to reduce data duplication by **75\%** through normalization and optimized parsing.}
+\resumeItem{Created a **no-code deployment tool** for easy model deployment on AWS using custom Docker containers.}
+\resumeItem{Enhanced chatbot with streaming vision, reducing incorrect answer rate from **50\% to 15\%**.}
+\resumeItem{Developed a new **RAG pipeline** for agentic retrieval and visual document understanding.}
+\resumeItem{Designed an **AI SQL generator** with context-guided outputs for complex, accurate query formulation.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------
+% Projects Section
+%-------------------------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Machine Learning Hardware Accelerator Capstone}}{Sept. 2024 -- Present}
+\resumeItemListStart
+\resumeItem{Implemented the **first ASIC-based L-Mul algorithm** in simulation, achieving up to **88.9\% area**, **99.6\% power**, and **80.7\% delay** improvements versus IEEE-754 multipliers (FP8 to FP32) with <0.1\% accuracy loss.}
+\resumeItem{Designed a full **accelerator core in Python** using PyRTL with a custom VLIW-style simulation framework and pipelined execution for efficient resource utilization.}
+\resumeItem{Developed a rudimentary **compiler** that converts a model’s computational graph into an optimized instruction sequence via matrix tiling and topological sorting.}
+\resumeItem{Integrated RTL design, automated CI testing, and openROAD physical hardening to validate performance and guide design decisions.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
