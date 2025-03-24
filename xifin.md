@@ -7,7 +7,6 @@
 - Developing and deploying custom inference containers for model serving
 - Building frontend web applications for non technical users to interact with models
 - Building internal CLI tools to help automate common workflows for my team
-- Migrated all untracked ML code in sagemaker to proper version control system
 
 ### Technologies used:
 
@@ -100,6 +99,7 @@
   - Multimodal LLM integration
   - Web scraping for template collection
   - Automated template conversion and integration
+  - Agentic system
 - Data Sources:
   - Denial codes
   - Regulatory rules

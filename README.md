@@ -160,14 +160,15 @@ Below are the revised resume sections for your ML Engineering Internship at XiFi
 **Experience – Machine Learning Engineer Intern, XiFin, Inc. (June 2024 – Present)**
 
 - **Model Deployment & Infrastructure:**
+
   - Deployed state-of-the-art LLMs for real-time inference on AWS SageMaker; built and maintained custom Docker inference containers, leveraging AWS services (Sagemaker, Lambda, S3, ECR) to ensure scalable, reliable deployment.
   - Migrated legacy code into a proper version-controlled environment, streamlining development and improving reproducibility across the team.
 - **Tooling & Process Automation:**
 
   - Developed internal CLI tools and web applications using Python, FastAPI, Gradio, Svelte, and TypeScript to automate common workflows, boosting team productivity and reducing manual intervention.
   - Implemented CI/CD pipelines with GitHub Actions to enable automated testing and continuous integration, ensuring high code quality and rapid iteration on model deployment processes.
-
 - **Advanced ML Operations & Optimization:**
+
   - Engineered an IDE-integrated code assistant (a private GitHub Copilot alternative) that provided context-aware code suggestions, inline editing with diff previews, and real-time autocomplete—supporting techniques like quantization and speculative decoding.
   - Optimized data pipelines and resource utilization by leveraging multiprocessing, threading, and asynchronous operations (asyncio), which resulted in faster model inference and smoother service delivery.
 - **Technologies:** Python (transformers, PyTorch, pandas, numpy, langchain), AWS (Sagemaker, Lambda, S3, ECR), Docker, Git, SQL, and modern web stacks (Svelte, TypeScript/JavaScript).
@@ -191,7 +192,7 @@ Below are the revised resume sections for your ML Engineering Internship at XiFi
 
 These sections showcase your deep hands-on experience in both cutting-edge ML engineering and innovative hardware simulation—demonstrating your potential to contribute across software engineering, machine learning, and even hardware architecture teams at Etched. Let me know if you’d like any further refinements!
 
-%-------------------------
+```latex
 % Experience Section
 %-------------------------
 \section{Experience}
@@ -225,3 +226,4 @@ These sections showcase your deep hands-on experience in both cutting-edge ML en
 \resumeItem{Integrated RTL design, automated CI testing, and openROAD physical hardening to validate performance and guide design decisions.}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
+```

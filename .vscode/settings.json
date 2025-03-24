@@ -1,0 +1,7 @@
+{
+    "latex-workshop.latex.recipe.default": "pdfLaTeX",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
+}

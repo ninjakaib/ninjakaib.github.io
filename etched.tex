@@ -1,0 +1,225 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Kai Breese} \\ \vspace{1pt}
+    \small 925-786-5550 $|$ \href{mailto:kai.breeze@me.com}{\underline{kai.breeze@me.com}} $|$ 
+    \href{https://www.linkedin.com/in/kaibreese}{\underline{linkedin.com/in/kaibreese}} $|$
+    \href{https://github.com/ninjakaib}{\underline{github.com/ninjakaib}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California San Diego}{La Jolla, CA}
+      {Bachelor of Science in Data Science}{Sep. 2021 -- March 2025}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+ \resumeSubHeadingListStart
+  \resumeSubheading
+  {Machine Learning Engineer Intern}{June 2024 -- Present}
+  {XiFin, Inc.}{San Diego, CA}
+  
+  \resumeItemListStart
+  \resumeItem{Building custom inference containers to serve ML models on AWS and deploying them as secure API endpoints}
+%   \resumeItem{Building custom inference containers to serve ML models on AWS, featuring a simple no-code deployment tool}
+  \resumeItem{Improved insurance pricing data pipeline throughput by over 100x with highly-parallelized C backends}
+  \resumeItem{Designed AI agent using fine-tuned LLMs and knowledge graphs to automatically appeal denied insurance claims}
+  \resumeItem{Trained and productionized a transformer-based model to parse, ingest, and autofill medical insurance forms}
+  \resumeItem{Enhanced company chatbot with multimodal document RAG, reducing incorrect answer rates from 52\% to 17\%}
+  \resumeItem{Reduced pricing database storage requirements by 75\% by designing an efficient, highly normalized schema}
+  \resumeItem{Developed internal coding assistant using open-source LLMs featuring chat, editing, and autocomplete}
+%   \resumeItem{Built SQL query generator with continuous learning capabilities, leveraging existing queries and schema information to generate accurate database queries}
+  \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+   \resumeSubheading
+  {Software Developer}{Jan. 2024 -- July 2024}
+  {Clayton Health, LLC}{San Diego, CA}
+  \resumeItemListStart
+    \resumeItem{Built custom e-commerce platform for Shopify using LiquidJS, driving \$100K in sales within first 6 months}
+    \resumeItem{Implemented automated email marketing campaigns leading to 8\% conversion rate}
+    \resumeItem{Worked directly with CEO to rapidly bring new features from concept to production}
+  \resumeItemListEnd
+    
+\resumeSubheading
+  {Computer Science Tutor}{Mar. 2023 -- Feb. 2024}
+  {TheCoderSchool}{San Diego, CA}
+  \resumeItemListStart
+    \resumeItem{Led one-on-one and classroom based sessions, teaching students in ways they can easily understand and relate to}
+    \resumeItem{Helped students create over 100 unique projects including games, websites, and assignments}
+  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Deep Learning Hardware Accelerator}}{Sept. 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Implemented energy-efficient floating point multipliers in hardware achieving 89.1\% area, 94.3\% power, and 66.0\% delay improvements vs IEEE-754 multipliers with $\LessOrEqual 0.1$\% model inference accuracy loss}
+            \resumeItem{Designed accelerator core with pipelined matrix multiplication engine, accumulator memory, and activation unit}
+            \resumeItem{Developed basic compiler to transform models into instructions through matrix tiling and graph optimization}
+            \resumeItem{Created Python package to design and simulate accelerators using composable and configurable hardware blocks}
+            \resumeItem{Integrated automated functional verification, and OpenROAD physical hardening to validate performance metrics}
+            % \resumeItem{Successfully executed MLP inference end-to-end in hardware simulation environment}
+          \resumeItemListEnd
+
+% \resumeProjectHeading {\textbf{Alternative Credit Modeling}}{Mar. 2024 -- June 2024} \resumeItemListStart \resumeItem{Designed ensemble ML models to predict loan default risk based on transaction history for customers without credit scores} \resumeItem{Engineered 4000+ features from time-series banking data using multi-layered statistical aggregations} \resumeItem{Achieved 0.903 AUC-ROC score with optimized low-depth boosted decision trees, outperforming complex models} \resumeItemListEnd
+
+\resumeProjectHeading
+    {\textbf{Credit Risk Modeling ML Competition}}{Mar. 2024 -- June 2024}
+    \resumeItemListStart
+      \resumeItem{Won 1st place with 0.903 AUC score, indicating better predictive power for loan defaults than actual FICO scores}
+      \resumeItem{Trained and optimized low-depth boosted decision trees to predict loan default risk based on transaction history for customers without credit scores}
+      \resumeItem{Engineered 4000+ features from time-series banking data using multi-layered statistical aggregations}
+    \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{AI Healthcare Coach}}{June 2023 -- Oct. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed real-time conversational AI phone service for 80\% cheaper than Twilio API (before GPT-4o released)}
+            \resumeItem{Designed SQL database with nutritional information for common foods and restaurants scraped from the web}
+            \resumeItem{Fine-tuned LLMs and deployed on AWS EC2 for real-time streaming and high-user load capacity}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, C/C++, Verilog, TypeScript} \\
+     \textbf{Developer Tools}{: Docker, Git, Huggingface, Yosys, OpenROAD} \\ 
+     \textbf{Cloud}{: AWS Sagemaker, Lambda, S3, RDS, ECR, EC2, API Gateway, GitHub Actions, Oracle DB} \\
+     \textbf{Libraries \& Frameworks}{: PyRTL, PyTorch, transformers, vLLM, TGI, peft, Unsloth, pandas, sklearn, NumPy, Numba, Dask, Cython, FastAPI, gradio, langchain, boto3, Apache TVM} }} \\
+ \end{itemize}
+%-------------------------------------------
+
+\end{document}
