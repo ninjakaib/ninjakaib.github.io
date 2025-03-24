@@ -71,3 +71,14 @@ Beyond my technical skills and experiences, I bring a genuine passion for Etched
 
 
 My ability to learn quickly and perform under pressure extends beyond academics. I spent two years at California's 5th busiest In-N-Out, where I learned to thrive in absolute chaos while maintaining quality and teamwork. Most people don't realize what it takes to succeed in that environment—the split-second coordination, the relentless pace, the need to adapt instantly when things go sideways. That experience taught me how to stay focused and effective even when everything's on fire, a skill I imagine comes in handy when you're building revolutionary hardware on ambitious timelines. I bring that same work ethic and calm-under-pressure mindset to everything I do.
+
+Hello Kai Breese,
+
+I am reaching out to you to seek a referall for the position of MLE at your company. I feel that my strong experience in X, Y, Z makes me an ideal candidate for this role. Please consider forwarding my resume to your hiring manager.
+
+
+Hey Kai,
+
+I saw that you also went to UCSD and saw on your linkedin that you are working full time at Etched now. Congrats on the offer dude! I wanted to reach out because Im really passionate about the work that you guys are doing over there and I would be super excited for the possibility to join the team. I submitted an application already, and I'm not necissarily asking for a full referral (although that would be awesome), but I would really appreciate if youd be able to get someone to take a look at it. I think I could bring a lot to the team, you guys are my dream startup actually!
+
+Thanks so much and go tritons!
