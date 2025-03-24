@@ -42,7 +42,19 @@ I cannot express how excited I would be to join your team of talented engineers,
 
 • Secured my current ML Engineer internship on my first application, quickly advancing to lead the company's AI product development efforts, as well as significantly improving performance of existing internal data pipelines—demonstrating both technical expertise and the ability to drive high-impact projects forward.
 
-• Consistently excel in competitive environments: won my first-ever ML competition against teams using complex deep learning (while using simpler, more efficient models), won my first hackathon with a facial recognition project, and consistently achieved top scores in challenging courses while balancing near full-time work to pay for school.
+• Consistently excel in competitive environments: won my first-ever ML competition by building a model that's better at predicting credit defaults than FICO, won my first hackathon with a facial recognition project, and consistently achieved top scores in challenging courses while balancing near full-time work to pay for school.
+
+---
+
+## What teams do you want to join?
+
+I'm most excited about the Software team because I work extensively with transformers, inference, and deployment in my current role, so I could hit the ground running there. I'm also really drawn to the Hardware and Architecture teams - despite not having formal hardware education, I've fallen in love with hardware design through self-learning and my accelerator project. The intersection of ML and hardware is exactly where I want to build my career.
+
+---
+
+## Anything else?
+
+Beyond my technical skills and experiences, I bring a genuine passion for Etched's mission that goes deeper than just professional interest. I've been following your progress since discovering the company, its really exciting stuff and I genuinely believe this company can change the world. I'm the type of person who thrives on ambitious technical challenges and would bring both determination and creativity to the team. I'm also eager to relocate back home to the Bay immediately if selected - I'm ready to hit the ground running and fully commit to helping build Sohu.
 
 ---
 
