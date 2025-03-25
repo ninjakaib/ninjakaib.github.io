@@ -1,0 +1,349 @@
+Summer 2025 Internship Program
+About Etched
+
+Etched is building AI chips that are hard-coded for individual model architectures. Our first product (Sohu) only supports transformers, but has an order of magnitude more throughput and lower latency than a B200. With Etched ASICs, you can build products that would be impossible with GPUs, like real-time video generation models and extremely deep chain-of-thought reasoning. 
+
+Backed by $150M+ in funding from investors like Peter Thiel, Jane Street, and Two Sigma, we're scaling rapidly and looking for exceptional interns to join us in Summer 2025. Interns will get to work on cutting-edge engineering and business challenges across the following departments at Etched:
+
+Hardware Engineering (ASIC):
+
+Our Hardware team is designing next-generation silicon that runs transformer models faster than any chip in history. Led by Ajat Hukkoo (ex-Broadcom Distinguished Engineer, Intel VP) and Mark Ross (former Cypress CTO; shipped 5 different $1B+ silicon systems), our Hardware team is looking for excellent electrical and computer engineers to help us design and verify our next-gen silicon.
+
+Architecture:
+
+Our Architecture team, led by Saptadeep Pal (Co-founder/Chief Architect at Auradine, ex-NVIDIA architecture team), is designing the underlying chip architecture for our silicon. Architecture interns will help solve novel challenges in microarchitecture design to drive unprecedented FLOPS on our chip.
+
+Platform Engineering:
+
+Our Platform team is led by Brian Loiler, NVIDIA's former Senior Director of Datacenter Systems Engineering who built multiple generations of DGX and HGX. Scaling from single chips to full datacenter deployments requires solving complex challenges in thermal design, power delivery, system integration, and more. We're looking for exceptional electrical and mechanical engineers to join the Platform team and help us build state-of-the-art systems at scale.
+
+Software Engineering and Machine Learning:
+
+Our Software and Machine Learning teams build firmware, inference engines, and model infrastructure for Sohu. Our stack is engineered to optimize transformer performance - enabling capabilities that are impossible on general-purpose chips. The team is led by David Munday, who helped lead data center and TPU infrastructure at Google and DeepMind for 7 years. We're looking for leading SWEs and machine learning researchers across a variety of roles.
+
+Operations:
+
+The operations team is our special forces unit, working on the company's most critical business initiatives alongside our COO, Robert Wachen. We tackle problems through rigorous analysis, strategic planning, and relentless execution. We're looking for sharp, ambitious interns who can thrive under pressure, take complete ownership of complex problems, and deliver measurable results.
+
+Go-to-Market:
+
+The Go-to-Market team crafts the strategy and executes the plans to bring Sohu to market, helping customers leverage Sohu to build previously-impossible products. The team includes Chase Holmes, former top-seller at Databricks and MosaicML, and Alexandra Boyle, former CCO at Symphony, and operates under Robert, our COO who previously scaled Prod, an AI accelerator, to a $7B+ cohort valuation. We're looking for talented customer-facing interns to help accelerate our go-to-market engine.
+
+Talent Acquisition:
+
+The Talent team identifies and attracts the people who make up Etched. The team works directly with leadership to assemble world-class experts across all departments. We're looking for technical recruiting interns who can build relationships and source top talent.
+
+Program Details:
+
+12-week paid internship (June - August 2025)
+
+Generous housing support for those relocating
+
+Based at our office in San Jose, CA
+
+Direct mentorship from industry leaders and world-class engineers
+
+Opportunity to work on one of the most important problems of our time
+
+How we’re different:
+
+Etched believes in the Bitter Lesson. We think most of the progress in the AI field has come from using more FLOPs to train and run models, and the best way to get more FLOPs is to build model-specific hardware. Larger and larger training runs encourage companies to consolidate around fewer model architectures, which creates a market for single-model ASICs.
+
+We are a fully in-person team in Cupertino, and greatly value engineering skills. We do not have boundaries between engineering and research, and we expect all of our technical staff to contribute to both as needed.
+
+
+---
+Machine Learning Engineer
+About Etched
+
+Etched is building AI chips that are specialized for individual model architectures. Our first product (Sohu) only supports Transformers, but has an order of magnitude more throughput and lower latency than a B200. With Sohu, you can build products that are infeasible with GPUs, like real-time video generation models and extremely deep & parallel chain-of-thought reasoning agents. Etched Labs is the organization within Etched whose mission is to democratize generative AI, pushing the boundaries of what will be possible in a post-Sohu world. 
+
+Key responsibilities
+
+Implement high-performance software components for the Kayak inference engine in Rust
+
+Translate core mathematical operations from transformer models into optimized operation sequences for Sohu
+
+Develop components of our model assembler and execution pipeline
+
+Work on performance optimization for the Sohu programming interface and runtime
+
+Collaborate with hardware engineers to maximize chip utilization and minimize latency
+
+Implement efficient batching strategies and execution plans for inference workloads
+
+Contribute to the evolution of our system architecture and programming model
+
+Design and implement cutting edge inference time compute scaling methods
+
+Representative projects
+
+Optimize operation sequences to maximize Sohu's computational resources for specific transformer architectures such as Stable Diffusion.
+
+Implement efficient memory management for KV cache sharing and prefix optimization
+
+Build infrastructure for continuous batching and batch interleaving to improve throughput
+
+Create components for the Sohu runtime that optimize for utilization, latency, and/or throughput
+
+Implement model-specific inference-time acceleration techniques such as speculative decoding, tree search, KV cache sharing, priority scheduling, etc by interacting with the rest of the inference serving stack
+
+Implement structured decoding and novel sampling algorithms for reasoning models
+
+Develop testing and benchmarking tools to measure and improve performance
+
+You may be a good fit if you have
+
+Strong software engineering skills with systems programming experience
+
+Experience with Rust programming language
+
+Familiarity with transformer model architectures and/or inference serving stacks (vLLM, SGLang, etc.)
+
+Strong mathematical skills, esp. in linear algebra
+
+Understanding of computational graphs, tensor sharding operations, and ML workloads
+
+Ability to reason about performance bottlenecks and optimization opportunities
+
+Experience working cross-functionally in diverse software and hardware organizations
+
+Strong candidates may also have
+
+Experience with hardware accelerators, ASICs, or FPGAs
+
+Deep expertise in ML systems engineering and hardware/software co-design with demonstrated impact (contributions to open-source projects or published papers)
+
+Experience with low-level memory management and synchronization primitives
+
+Track record of optimizing large-scale inference systems
+
+
+---
+Performance Modeling Engineer
+Etched was founded on the belief that new hardware will be needed to run human- and superhuman-level artificial intelligence. Our ASIC systems deliver orders of magnitude higher performance than conventional AI chips. Etched is actively developing Sohu, an ASIC exclusively for transformers, which will enable products that would be impossible with GPUs, like real-time video generation models and extremely deep chain-of-thought reasoning. And we're bringing this technology to market in months, not years. Sohu is hard-coded for individual model architectures and only supports transformers, but has an order of magnitude more throughput and lower latency than a B200. 
+
+ 
+WHAT YOU’LL DO
+
+Develop and own SoC functional models from architecture to deployment, including integration with infrastructure, thorough testing, and debugging.
+
+Collaborate closely with architecture, RTL design, design verification, emulation, and software teams to ensure alignment and performance.
+
+Innovate tooling and infrastructure to enhance usability and effectiveness for internal and external partners.
+
+Optimize model and infrastructure performance, ensuring scalability for real-world AI workloads.
+
+Create software that is well-documented, maintainable, and reusable, ensuring longevity and ease of future development.
+
+Simulate performance of existing and upcoming state-of-the-art (SOTA) Transformer models on our ASIC architecture vs other alternatives (GPUs, TPUs etc)
+
+WE’RE LOOKING FOR ENGINEERS WITH:
+
+Expert knowledge in functional modeling of ASICs (TPUs, GPUs, CPUs, or equiv. accelerators)
+
+Strong command of C++ for modeling with Python familiarity for scripting and automation.
+
+Insights bridging simulation to analysis of complex systems involving multiple domains (e.g., physical link IO / memory / chip firmware / system software / overall performance).
+
+High interest in learning transformer architecture, developing insight into AI hardware/software co-design.
+
+Passion for AI and a desire to push performance and efficiency boundaries.
+
+Machine learning experience is not required. This role will provide opportunities to ramp on relevant ML concepts on the job.
+
+Minimum qualifications:
+
+Bachelor's degree or equivalent practical experience.
+
+5 years of experience in software development with data structures/algorithms.
+
+5 years of experience developing and testing software models/simulations of shipping ASICs.
+
+3 years of experience modeling SoC relevant technologies (DRAM, HBM, I2C, SPI, PCIe, etc.).
+
+Preferred qualifications:
+
+Master’s or PhD degree Computer Science, or a related technical field.
+
+Experience in computer architecture, SoC design, and RTL languages.
+
+Experience solving ambiguous problems.
+
+Excellent verbal and written communication skills.
+
+---
+Emulation Software Engineer
+About Etched
+
+Etched is building AI chips that are hard-coded for individual model architectures. Our first product (Sohu) only supports transformers, but has an order of magnitude more throughput and lower latency than a B200. With Etched ASICs, you can build products that would be impossible with GPUs, like real-time video generation models and extremely deep & parallel chain-of-thought reasoning agents.
+
+Key responsibilities
+
+Oversee SoC bring-up on emulation platforms; diagnose and resolve failing SoC/Processor tests.
+
+Develop innovative techniques to accelerate pre-silicon validation and software development.
+
+Provide support for various emulation environments, utilizing advanced emulation techniques including C/C++ DPI transactors, coverage analysis, and in-circuit emulation for high-speed protocols.
+
+Collaborate closely with teams across Design, DV, Silicon Validation, Performance, and Software, and partner with leading emulation vendors to enhance platform capabilities and troubleshoot complex issues.
+
+ 
+
+Representative projects
+
+Develop high-performance software to capture debugging signals and create associated tooling to surface valuable insights for users.
+
+Implement a hybrid emulation environment using custom DPI-based streaming transactors.
+
+Create highly configurable chip-to-chip network models using emulation-efficient primitives.
+
+You may be a good fit if you have
+
+Hands-on experience with emulation on platforms such as Palladium, Protium, Veloce, or Zebu, covering design bring-up, build flows, debugging, and performance tuning.
+
+Strong experience with C/C++ and Linux system development. Proficiency with SystemVerilog and Verilog, including DPI-based interfaces.
+
+Practical experience with scripting languages (i.e., Python) for automation.
+
+Strong candidates may also have experience with
+
+Experience working with UVM verification environments.
+
+Background in design verification, DFT, and testbench modeling.
+
+Familiarity with waveform debug tools such as Verdi or SimVision.
+
+---
+Inference Software Engineer
+About Etched
+
+Etched is building AI chips that are hard-coded for individual model architectures. Our first product (Sohu) only supports transformers, but has an order of magnitude more throughput and lower latency than a B200. With Etched ASICs, you can build products that would be impossible with GPUs, like real-time video generation models and extremely deep & parallel chain-of-thought reasoning agents.
+
+Key responsibilities
+
+Contribute to the architecture and design of the Sohu host software stack
+
+Implement high-performance, modular code across the complete Etched software stack, consisting of a mix of Rust, C++ and Python.
+
+Interface with firmware and drivers teams delivering highest-performance HW/SW stack.
+
+Work with AI model researchers and product-facing teams building out the Etched serving front-end.
+
+Representative projects
+
+Build scheduling logic for handling continuous batching and real time inference
+
+Implement inference-time acceleration techniques such as speculative decoding, tree search, KV cache sharing, etc.
+
+Implement distributed networking primitives for efficient multi-server inference
+
+You may be a good fit if you have
+
+Experience with C++ and Python
+
+Familiarity with transformer model architectures and inference serving stacks (vLLM, SGLang, etc.) or experience working in distributed inference/training environments
+
+Experience working cross-functionally in large software and hardware organizations
+
+Strong candidates may also have
+
+Experience with Rust
+
+Familiarity with GPU kernels, the CUDA compilation stack and related tools, or other hardware accelerators
+
+Understanding of distributed systems, networking, and parallel programming
+
+---
+
+Software Engineer, Burn-in Testing
+
+About Etched
+
+Etched is building AI chips that are hard-coded for individual model architectures. Our first product (Sohu) only supports transformers, but has an order of magnitude more throughput and lower latency than a B200. With Etched ASICs, you can build products that would be impossible with GPUs, like real-time video generation models and extremely deep & parallel chain-of-thought reasoning agents.
+
+Job Summary:
+We are seeking highly motivated and detail-oriented Software Engineers to join our Burn-in Testing team. This team plays a critical role in ensuring the reliability and stability of our highest-performance Inference server hardware and software. As a Software Engineer on this team, you will design, develop, and execute comprehensive burn-in test suites, analyze test results, and collaborate with hardware and software engineering teams at Etched and our ODM partners to identify and resolve potential issues. You will be at the forefront of ensuring our server products meet the highest quality standards before they reach our customers.
+
+Key responsibilities
+
+Test Development: Design, develop, and implement automated burn-in test suites using common scripting languages (Python, Go, Bash) and test frameworks across all aspects of System Operation including: boot sequences, root-of-trust, system management, workload deployment and performance.
+
+Test Execution: Execute burn-in tests on server hardware, monitor system performance and health, and analyze test results.
+
+Failure Analysis: Investigate and debug hardware and software failures identified during testing, providing detailed reports and mitigation plans.
+
+Collaboration: Collaborate with internal and external hardware and software engineering teams to identify root causes of failures and implement corrective actions.
+
+Test Infrastructure: Contribute to the development and maintenance of the burn-in testing infrastructure, including portable test environments and automation tools runable in any environment.
+
+Documentation: Create and maintain comprehensive documentation for test plans, test cases, and test results.
+
+Performance Analysis: Analyze system performance metrics to identify potential bottlenecks and areas for optimization.
+
+Continuous Improvement: Participate in continuous improvement efforts to enhance the efficiency and effectiveness of the burn-in testing process.
+
+Representative projects
+
+Develop automated test suites to stress-testing of CPUs, memory, storage, and network subsystems under extreme workloads.
+
+Design and implement fault injection tests to simulate hardware and software failures.
+
+Create tools to monitor and analyze system performance metrics, such as CPU utilization, cross-socket memory performance and usage, and network latency.
+
+Build and maintain a scalable burn-in testing environment capable of handling multiple server configurations.
+
+Collaborate with hardware engineers to develop tests for new server features and components.
+
+Contribute to the creation of dashboards that show the current state of burn in testing across the server farm.
+
+You may be a good fit if you have
+
+Proficiency in at least one scripting language (e.g., Python, Bash, Go).
+
+Experience with software testing methodologies and tools.
+
+Strong understanding of operating systems (Linux preferred) and server hardware architectures.
+
+Ability to analyze complex technical problems and provide effective solutions.
+
+Excellent communication and collaboration skills.   
+
+Ability to work independently and as part of a team.
+
+Experience with version control systems (e.g., Git).   
+
+Experience with reading and interpreting hardware logs.
+
+Strong candidates may also have experience with
+
+Experience with hardware burn-in testing or reliability testing.
+
+Knowledge of server virtualization and cloud computing concepts.
+
+Experience with performance testing and benchmarking tools.
+
+Familiarity with hardware diagnostic tools and techniques.
+
+Experience with containerization technologies (e.g., Docker, Kubernetes).
+
+Experience with CI/CD pipelines.
+
+Knowledge of low level hardware communication protocols (i2c, etc.)
+
+Experience with data analysis tools and techniques.
+
+Ideal Background:
+
+Candidates with experience in server hardware or software development, testing, or support.
+
+Individuals with a strong interest in hardware and software reliability.
+
+Professionals with a background in system administration or performance engineering.
+
+Individuals who enjoy working in a fast-paced and challenging environment.
+
+Those who have worked in a datacenter environment.
+
+Experience in the telecommunications or high performance computing fields.
+
