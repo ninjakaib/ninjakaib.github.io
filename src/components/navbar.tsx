@@ -26,9 +26,9 @@ export default function Navbar() {
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "size-12"
                   )}
-                  download={item.download}
-                  target={item.download ? "_blank" : undefined}
-                  rel={item.download ? "noopener noreferrer" : undefined}
+                  download={'download' in item ? item.download : undefined}
+                  target={'download' in item && item.download ? "_blank" : undefined}
+                  rel={'download' in item && item.download ? "noopener noreferrer" : undefined}
                 >
                   <item.icon className="size-4" />
                 </Link>

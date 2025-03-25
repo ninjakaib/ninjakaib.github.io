@@ -32,7 +32,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/kaibreese-resume.pdf", icon: FileTextIcon, label: "Resume", download: true },
+    { href: "/kaibreese-resume.pdf", icon: FileTextIcon, label: "Resume"},
   ],
   contact: {
     email: "kai.breeze@me.com",
@@ -490,12 +490,12 @@ export const DATA = {
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
-        type: "Website",
+        title: "Website",
         href: "https://devpost.com/software/expedition-hacks-project",
         icon: <Icons.globe className="size-3" />,
       },
       {
-        type: "Source",
+        title: "Source",
         href: "https://github.com/taylorallen0913/intellisearch",
         icon: <Icons.github className="size-3" />,
       }
