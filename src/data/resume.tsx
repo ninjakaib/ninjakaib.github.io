@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { FileTextIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Kai Breese",
@@ -12,6 +12,7 @@ export const DATA = {
   summary:
     "Recently graduated from UCSD, I work at Xifin and like to ride motorcycles. Currently designing the next generation of AI hardware for energy efficient transformer inference.",
   avatarUrl: "/kai-selfie.jpeg",
+  resumePdf: "/kaibreese-resume.pdf",
   skills: [
     "Python",
     "SQL",
@@ -31,6 +32,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/kaibreese-resume.pdf", icon: FileTextIcon, label: "Resume", download: true },
   ],
   contact: {
     email: "kai.breeze@me.com",
@@ -160,6 +162,7 @@ export const DATA = {
         "Verilog",
         "Yosys",
         "OpenROAD",
+        "Docker",
       ],
       links: [
         {
@@ -177,7 +180,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Alternative Credit Risk Modeling",
+      title: "Transaction-based Credit Risk Modeling with Machine Learning",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
@@ -240,33 +243,240 @@ export const DATA = {
     },
     {
       title: "Visualizing Huffman Compression",
-      href: "https://automatic.chat",
+      href: "https://ninjakaib.github.io/huffman-coding-visualizer/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
         "Created an interactive visualization of the Huffman compression algorithm to help users understand how it works.",
       technologies: [
-        "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Svelte",
+        "D3.js",
+        "Bootstrap",
       ],
       links: [
         {
+          type: "Video",
+          href: "https://youtu.be/ICh998TIV4g",
+          icon: <Icons.youtube className="size-3" />,
+        },
+        {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://ninjakaib.github.io/huffman-coding-visualizer/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/huffman-coding-visualizer",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/huffman.mov",
     },
+    {
+      title: "Shopify Store",
+      href: "https://shopdaveclaytonmd.com/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Bringing Dr. Dave Clayton's health product startup to life through a custom Shopify store.",
+      technologies: [
+        "Shopify",
+        "JavaScript",
+        "LiquidJS",
+        "HTML",
+        "CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://shopdaveclaytonmd.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/drdaveshopify",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/shopdrdave.mov",
+    },
+    {
+      title: "Stock Market Sentiment Analysis Dashboard",
+      href: "",
+      dates: "(insert dates)",
+      active: true,
+      description:
+        "(insert description)",
+      technologies: [
+        "Python",
+        "Flask",
+        "pandas",
+        "flair",
+        "JavaScript",
+        "HTML",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/lign167-final",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Taxi Ride Time Prediction with Deep Learning",
+      href: "",
+      dates: "(insert dates)",
+      active: true,
+      description:
+        "(insert description)",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "pandas",
+        "geopandas",
+        "Kaggle",
+        "gluon",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/taxiregression",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Higher Education Data Visualization",
+      href: "https://ninjakaib.github.io/education-dataviz/",
+      dates: "(insert dates)",
+      active: true,
+      description:
+        "(insert description)",
+      technologies: [
+        "fixme!!!",
+        "JavaScript",
+        "D3.js",
+        "Python",
+        "plotly",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ninjakaib.github.io/education-dataviz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/education-dataviz/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/edu-dataviz.mov",
+    },
+    {
+      title: "Savor or Skip: The Art of Recipe Rating Prediction",
+      href: "https://ninjakaib.github.io/recipe-prediction/",
+      dates: "(insert dates)",
+      active: true,
+      description:
+        "(insert description)",
+      technologies: [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "matplotlib",
+        "plotly",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ninjakaib.github.io/recipe-prediction/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/recipe-prediction",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Savory Statistics: Online Recipe Data Analysis",
+      href: "https://ninjakaib.github.io/recipe-analysis/",
+      dates: "(insert dates)",
+      active: true,
+      description:
+        "(insert description)",
+      technologies: [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "matplotlib",
+        "plotly",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ninjakaib.github.io/recipe-analysis/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ninjakaib/recipe-analysis/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/recipe-analysis.mov",
+    },
+    // {
+    //   title: "",
+    //   href: "",
+    //   dates: "",
+    //   active: true,
+    //   description:
+    //     "",
+    //   technologies: [
+    //     "",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/ninjakaib/",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+    
   ],
   hackathons: [
     {
@@ -278,7 +488,18 @@ export const DATA = {
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+        type: "Website",
+        href: "https://devpost.com/software/expedition-hacks-project",
+        icon: <Icons.globe className="size-3" />,
+      },
+      {
+        type: "Source",
+        href: "https://github.com/taylorallen0913/intellisearch",
+        icon: <Icons.github className="size-3" />,
+      }
+    ],
     },
   ],
 } as const;
